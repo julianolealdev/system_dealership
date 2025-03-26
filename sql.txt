@@ -1,0 +1,13 @@
+CREATE TABLE base(
+id_car SERIAL NOT NULL,
+marca varchar(40),
+nome varchar (40),
+ano int,
+preco float(20),
+km int,
+cambio varchar(20),
+carroceria varchar(20),
+cor varchar(15),
+combustivel varchar(10),
+primary key(id_car)
+)
